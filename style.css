@@ -20,6 +20,7 @@ main {
 .form {
   border-style: solid;
   padding: 2rem;
+  border-radius: 10px;
 }
 
 .buttons {
@@ -35,14 +36,20 @@ main {
 }
 
 .users div {
+  border-radius: 25px;
   border-style: solid;
   /* height: 100px; */
   width: calc(100% / 3 - 2rem);
   margin: 1rem;
   text-align: center;
+  padding-bottom: 0.5rem;
 }
 @media (max-width: 600px) {
   .users div {
     width: 100%;
   }
+}
+
+.users div p {
+  margin: 0;
 }
